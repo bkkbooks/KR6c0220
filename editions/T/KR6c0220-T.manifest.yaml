@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6c0220/T/v1
+canonical_location: https://kanripo.org/bkk/KR6c0220/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說了義般若波羅蜜多經
+  identifiers:
+    krp: KR6c0220
+    cbeta: T08n0247
+    cbeta_old_id: T08n0247
+    authorityid: CA0002067
+    json_key: T0247
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T08/T08n0247.xml
+    old_id: T08n0247
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0220_000-T.yaml, hash: 'sha256:78480adcfe9b45d63b21dadb618d39d41a6bea4cc1ef030f406e89e03333222f'}
+  - {seq: 1, filename: KR6c0220_001-T.yaml, hash: 'sha256:44c5089f3e2ab81103b13e9e9385c9d2321138cef2264bf6593202fd19b747e0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6c0220_000-T.markers.yaml, hash: 'sha256:16159c7c1210b831468304ef8abd70380f98a968ac4c77da62db0fd37f4e43af'}
+  - {seq: 1, role: markers, filename: assets/KR6c0220_001-T.markers.yaml, hash: 'sha256:71e50ac49057cd6631442f5b28c4dddc4057503c1fda7c4221aedee21abe8f2d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0220_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1054
+  label: 佛說了義般若波羅蜜多經
+  type: juan
+  level: 1
+hash: sha256:3748cc643cdd1d8c6a5b4e3e5f58f3eb39ac169f156e4c7a880fd27748510923
